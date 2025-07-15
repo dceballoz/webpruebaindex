@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cortinas SS</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="text-gray-800">
+
+  <!-- Navbar -->
+  <header class="fixed w-full bg-white shadow z-50">
+    <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
+      <h1 class="text-xl font-bold">Cortinas SS</h1>
+      <nav class="space-x-6 hidden md:block">
+        <a href="#inicio" class="hover:text-blue-600">Inicio</a>
+        <a href="#nosotros" class="hover:text-blue-600">Nosotros</a>
+        <a href="#servicios" class="hover:text-blue-600">Servicios</a>
+        <a href="#contacto" class="hover:text-blue-600">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="inicio" class="h-screen bg-cover bg-center flex items-center justify-center" style="background-image: url('https://images.pexels.com/photos/7746553/pexels-photo-7746553.jpeg');">
+    <div class="bg-blue-700 bg-opacity-50 p-10 rounded text-white text-center">
+      <h2 class="text-4xl md:text-5xl font-bold mb-4">Soluciones Tecnológicas Innovadoras para Cortinas</h2>
+      <p class="mb-6">Transformamos ideas en proyectos reales</p>
+      <a href="#contacto" class="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded text-white">Contáctanos</a>
+    </div>
+  </section>
+
+  <!-- Nosotros -->
+  <section id="nosotros" class="py-20 bg-blue-700">
+    <div class="max-w-6xl mx-auto text-center">
+      <h3 class="text-3xl font-semibold mb-4">¿Quiénes Somos?</h3>
+      <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+        Somos una empresa dedicada a brindar soluciones tecnológicas con más de 10 años de experiencia en el mercado ecuatoriano.
+      </p>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section id="servicios" class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto text-center">
+      <h3 class="text-3xl font-semibold mb-10">Nuestros Servicios</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="p-6 border rounded shadow hover:shadow-lg">
+          <h4 class="text-xl font-bold mb-2">Consultoría</h4>
+          <p>Asesoría en proyectos tecnológicos personalizados.</p>
+        </div>
+        <div class="p-6 border rounded shadow hover:shadow-lg">
+          <h4 class="text-xl font-bold mb-2">Infraestructura</h4>
+          <p>Implementación de redes, servidores y soluciones de nube.</p>
+        </div>
+        <div class="p-6 border rounded shadow hover:shadow-lg">
+          <h4 class="text-xl font-bold mb-2">Desarrollo</h4>
+          <p>Desarrollo de software a medida para tu negocio.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="py-20 bg-gray-100">
+    <div class="max-w-6xl mx-auto px-4">
+      <h3 class="text-3xl font-semibold text-center mb-8">Contáctanos</h3>
+      <div class="grid md:grid-cols-2 gap-10">
+        <form class="space-y-4">
+          <input type="text" placeholder="Nombre" class="w-full p-3 border rounded"/>
+          <input type="email" placeholder="Correo" class="w-full p-3 border rounded"/>
+          <textarea placeholder="Mensaje" class="w-full p-3 border rounded h-32"></textarea>
+          <button type="submit" class="bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700">Enviar</button>
+        </form>
+        <div class="flex flex-col justify-center">
+          <p><strong>Email:</strong> contacto@miempresa.com</p>
+          <p><strong>Teléfono:</strong> +593 999 999 999</p>
+          <iframe src="https://maps.google.com/?q=Quito,+Ecuador&output=embed" class="w-full h-64 mt-4 border" loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6 text-center">
+    <p>&copy; 2025 Mi Empresa. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>
